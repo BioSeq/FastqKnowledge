@@ -84,52 +84,6 @@ class FastqKeeper:
 
                 return count
                 
-
-
-        # Getters for nucleotide counts in whole file
-        def getA(self):
-                return self.A
-
-        def getC(self):
-                return self.C
-
-        def getG(self):
-                return self.G
-
-        def getT(self):
-                return self.T
-
-        def getN(self):
-                return self.N
-
-        def getTotal(self):
-                return self.total
-
-        # Getters for GC / AT content
-        def getGC(self):
-                return self.GC
-
-        def getAT(self):
-                return self.AT
-
-
-        # Getters for strand sense percentage
-        def getPlus(self):
-                return self.plus
-
-        def getMinus(self):
-                return self.minus
-
-        
-        # Getters for avg length and avg Q score
-        def getAvgLen(self):
-                return self.avgLen
-
-        def getAvgQScore(self):
-                return self.avgQScore
-
-
-
         ################ Private Methods ################
         # INITIALIZER
         # Inputs reads into data structure counts nucleotides

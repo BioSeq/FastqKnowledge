@@ -92,7 +92,7 @@ def runLoop(sequences):
                 elif choice == 'r':
                         sequences.printRandomSeq()
                 elif choice == 'u':
-                        print sequences.printNumNucs()
+                        sequences.printNumNucs()
                 elif choice == 'x':
                         print "Goodbye"
                         running = False

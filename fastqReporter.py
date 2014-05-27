@@ -45,7 +45,7 @@ class FastqReporter(FastqKeeper):
 
         # Prints a report of the number of nucleotides in the file
         def printNumNucs(self):
-                print "NUMBER OF EACH NUCLEOTIDE SEEN IN ALL READS"
+                print "Number of each nucleotide seen in all reads"
                 print "A:", self.A
                 print "C:", self.C
                 print "G:", self.G
