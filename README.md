@@ -1,8 +1,6 @@
-FastqKnowledge
-==============
+#FastqKnowledge
 
-Philip Braunstein
-pbraunstein12@gmail.com
+#####Philip Braunstein (pbraunstein12@gmail.com)
 
 FastqKnowledge is an educational program that allows students to interact with FASTQ files.
 
